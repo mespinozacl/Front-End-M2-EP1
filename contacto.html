@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hospital Internacional de Talca</title>
+<style>
+    body {
+        background-color: lightblue;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .button {
+        background-color: #3498db;
+        transition: background-color 0.3s ease;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    .button:hover {
+        background-color: #2980b9;
+    }
+
+    nav.topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    nav.topnav a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    nav.topnav a:hover {background-color: #111;}
+
+    footer {
+        display: block;
+        margin: 10px;
+        text-align: center;
+        padding: 10px;
+        background-color: lightgray;
+        color: black;
+    }
+
+    h1, h2, h3, div, p {
+        padding:0 16px;
+    }
+
+</style>
+</head>
+<body>
+    <header>
+        <h1>Hospital Internacional de Talca</h1>
+        <div class="menu">
+            <nav class="topnav">
+                <a href="./home.html">Home</a></li>
+                <a href="./equipo.html">Equipo Médico</a></li>
+                <a href="./contacto.html">Contacto</a></li>
+                <button class="button">Reservar Cita</button></li>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div>
+            <h2>Formulario de Contacto</h2>
+            <div class="container">
+              <form action="/action_page.php">
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre.."><br>
+                <label for="email">Email:   </label>
+                <input type="email" id="email" name="email" placeholder="Tu email.."><br>
+                <label for="asunto">Asunto: </label>
+                <input type="text" id="asunto" name="asunto" placeholder="Asunto.."><br>
+                <label for="mensaje">Mensaje: </label><br>
+                <textarea id="mensaje" name="mensaje" placeholder="Escribe algo.." style="height:200px"></textarea><br><br>
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+          </div>
+    </section>
+    <section>
+        <div>
+            <h2>Mapa de Ubicación</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3251.481200549011!2d-71.68668262261194!3d-35.418108000966036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9665c43a126502a7%3A0x3ca8d6193626934f!2sLas%20Viejas%20Cochinas!5e0!3m2!1ses!2scl!4v1729555225663!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <footer>
+            <hr />
+            <tr>
+                <td>
+                    | Autor: Elver
+                    <a href="mailto:elver@durero.com">elver@durero.com</a>
+                </td>
+                <td>
+                    | Talca, Chile 2024
+                </td>
+                <td>
+                    | Instagram: 
+                    <a href="@elver">@elver</a> |
+                </td>
+            </tr>
+    </footer>
+</body>
+</html>
